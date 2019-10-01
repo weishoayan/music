@@ -1,0 +1,17 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "潭州音乐",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "none",
+        "text": "",
+        "fontSrc": "/static/uni.ttf"
+      },
+      {
+        "type": "menu",
+        "float": "left"
+      }
+    ]
+  }
+}

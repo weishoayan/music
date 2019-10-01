@@ -1,0 +1,65 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "潭州音乐",
+				"titleNView": {
+					"buttons": [
+						{
+							"type": "none",
+							"text": "\ue466",
+							"fontSrc": "/static/uni.ttf"
+						},
+						{
+							"type": "menu",
+							"float": "left"
+						}
+					]
+				}
+			}
+		},
+		{
+			"path":"pages/search/search",
+			"style": {
+				"titleNView": {
+					"searchInput": {
+						"placeholder": "大家都在搜",
+						"align": "left",
+						"autoFocus": true
+					}
+				}
+			}
+		},
+		{
+			"path":"pages/music/music"
+		},
+		{
+			"path":"pages/history/history",
+			"style": {
+				"navigationBarTitleText": "历史记录"
+			}
+		},
+		{
+			"path":"pages/download/download",
+			"style": {
+				"navigationBarTitleText": "下载管理"
+			}
+		},
+		{
+			"path":"pages/playerdetail/playerdetail",
+			"style": {
+				"navigationBarTitleText": "歌单",
+				"titleNView": {
+					// "type": "transparent"
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

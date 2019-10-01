@@ -1,0 +1,9 @@
+<import src="/components/uni-drawer/uni-drawer.vue.wxml" />
+<import src="/components/uni-list/uni-list.vue.wxml" />
+<import src="/components/uni-list-item/uni-list-item.vue.wxml" />
+<import src="/components/player/player.vue.wxml" />
+
+<template name="ffd6c0c6-default-ffd6c0c6-3"><template bindtap="handleProxy" title="历史记录" note show-arrow="false" data-eventid="{{'ffd6c0c6-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'ffd6c0c6-1'],$root}}" is="41db8e4f"></template><template bindtap="handleProxy" title="下载管理" note show-arrow="false" data-eventid="{{'ffd6c0c6-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'ffd6c0c6-2'],$root}}" is="41db8e4f"></template></template>
+
+<template name="ffd6c0c6-default-ffd6c0c6-4"><template data="{{...$root['0'], ...$root[$kk+'ffd6c0c6-3'],$root, $slotdefault:'ffd6c0c6-default-ffd6c0c6-3'}}" is="14687a3a"></template></template>
+
